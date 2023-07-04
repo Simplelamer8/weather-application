@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <title>Weather forecast app</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="change">
+            <div class="today_week">
+                <button class="today">Today</button> <button class="week"> Week</button>
+            </div>
+            <div class="celsius_fahrenheit"><button class="celsius">°C</button> <button class="fahrenheit"> °F </button></div>
+        </div>
+        <main>
+            <div class="main_info">
+                
+                <div class="left">
+                    <form>
+                        <input type="text" placeholder="Search for a location..." class="search_area">
+                        <button><img src="https://w7.pngwing.com/pngs/582/430/png-transparent-search-magnifier-find-zoom-glass-seo-optimization-instagram-icon.png" alt="search"></button>
+                    </form>
+                    <ul id="myList">
+                        <li class="cities"></li>
+                    </ul>
+                    <div class="upper">
+                        <h1 class="location"></h1>
+                        <div class="location_temp">
+                            <h1 class="temp_value"></h1>
+                            <div class="location_temp_unit">°C</div>
+                        </div>
+                        <h3 class="day_night"></h3>
+                        <h2 class="condition"></h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="./assets/images/icon-clear-day.png" alt="">
+                </div>
+            </div>
+            <div class="details">
+                <div class="UV_index detail">
+                    <p>UV index</p>
+                    <h2>0</h2>
+                    <div class="statement"></div>
+                </div>
+                <div class="wind_status detail">
+                    <p>Wind status</p>
+                    <h2>0</h2>
+                    <div class="statement"></div>
+                </div>
+                <div class="sunrise_sunset detail">
+                    <p>Sunrise&Sunset</p>
+                    <h2>0</h2>
+                    <h2>0</h2>
+                    <div class="statement"></div>
+                </div>
+                <div class="humidity detail">
+                    <p>Humididty</p>
+                    <h2>0</h2>
+                    <div class="statement"></div>
+                </div>
+                <div class="visibility detail">
+                    <p>Visibility</p>
+                    <h2>0</h2>
+                    <div class="statement"></div>
+                </div>
+                <div class="air_quality detail">
+                    <p>Air quality</p>
+                    <h2>0</h2>
+                    <div class="statement"></div>
+                </div>
+            </div>
+        </main>
+        <div class="weatherCards">
+            <div class="dayname"></div>
+            <img src="" alt="" class="icon">
+            <div class="temp"></div>
+            <div class="temp-unit"></div>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+    <script src="./autocomplete.js"></script>
+</html>
