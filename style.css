@@ -92,6 +92,7 @@ body
 }
 main 
 {
+    padding-left: 10rem;
     white-space: normal;
     width: 50%;
     padding: 1rem;
