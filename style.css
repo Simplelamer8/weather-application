@@ -92,7 +92,6 @@ body
 }
 main 
 {
-    padding-left: 10rem;
     white-space: normal;
     width: 50%;
     padding: 1rem;
@@ -227,6 +226,7 @@ li:hover
 {
     main 
     {
+        padding-left: 10rem;
         min-width: 100%;
         overflow: scroll;
         border-radius: 0;
