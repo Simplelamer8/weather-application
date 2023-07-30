@@ -226,11 +226,11 @@ li:hover
 {
     main 
     {
-        padding-left: 10rem;
         min-width: 100%;
         overflow: scroll;
         border-radius: 0;
         padding: 5rem;
+        padding-left: 10rem;
     }
     .weatherCards
     {
